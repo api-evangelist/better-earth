@@ -1,0 +1,15 @@
+generated: '2026-09-28'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: betterearth.org
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct 29 02:03:31 2026 GMT
+  hsts: false
+domains:
+- domain: betterearth.org
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false
